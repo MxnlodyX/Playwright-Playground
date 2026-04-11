@@ -4,7 +4,7 @@ test('Locators in Playwright', async ({ page }) => {
     // get By Role
     // await page.getByRole('link',{name : 'Sign in'}).click();
 
-    // get By Label
+    // get By Label (F12 Tag : <label for="XXXXXXXX">XXXXXXXX</label> , aria-label="XXXXXXXX")
     // await page.getByLabel('Homepage',{exact: true}).first().click();
 
     // get by Alt Attribute - For Images
