@@ -20,6 +20,8 @@ test.beforeEach(async () => {
         ]
     });
     page = context.pages().length > 0 ? context.pages()[0] : await context.newPage();
+    await page.goto("https://google.com");
+
 });
 
 test.afterEach(async () => {
@@ -32,7 +34,6 @@ test.afterAll(async () => {
 
 test("Search Playwright Courses", async () => {
     await test.step("Search with keyword", async () => {
-        await page.goto("https://google.com");
         const searchBar = page.getByRole('combobox', { name: 'ค้นหา' });
         await searchBar.click();
         await searchBar.pressSequentially('playwright by Testers Talk');
@@ -50,7 +51,6 @@ test("Search Playwright Courses", async () => {
 });
 
 test("เช็คหน้าแรกของ Google (ตัวอย่าง Test 2)", async () => {
-    await page.goto("https://google.com");
     await expect(page).toHaveTitle(/Google/);
 });
 
