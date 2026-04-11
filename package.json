@@ -1,0 +1,23 @@
+{
+  "name": "playwright-practice",
+  "version": "1.0.0",
+  "description": "This just area for practice Playwright with Type script",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MxnlodyX/Playwright-Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MxnlodyX/Playwright-Practice/issues"
+  },
+  "homepage": "https://github.com/MxnlodyX/Playwright-Practice#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
+  }
+}
