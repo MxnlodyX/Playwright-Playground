@@ -7,3 +7,4 @@ node_modules/
 /playwright/.cache/
 /playwright/.auth/
 /tests/Chapter01/google_user_data
+/tests/Chapter02/google_user_data
