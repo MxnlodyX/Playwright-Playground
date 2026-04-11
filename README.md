@@ -1,0 +1,1 @@
+This just area for practice Playwright with Type script
