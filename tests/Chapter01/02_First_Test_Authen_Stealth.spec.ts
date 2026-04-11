@@ -6,7 +6,6 @@ chromium.use(stealth());
 test("Search Playwright Courses", async () => {
     const userDataDir = path.join(__dirname, 'google_user_data');
     const context = await chromium.launchPersistentContext(userDataDir, {
-        headless: false,
         args: [
             '--disable-blink-features=AutomationControlled', 
             '--no-sandbox'
