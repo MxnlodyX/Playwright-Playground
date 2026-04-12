@@ -1,0 +1,1 @@
+npx playwright test (test script path) --repeat-each=(times)
