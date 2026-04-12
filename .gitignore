@@ -8,3 +8,4 @@ node_modules/
 /playwright/.auth/
 /tests/Chapter01/google_user_data
 /tests/Chapter02/google_user_data
+/tests/Chapter03/google_user_data
