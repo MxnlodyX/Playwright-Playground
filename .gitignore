@@ -9,3 +9,6 @@ node_modules/
 /tests/Chapter01/google_user_data
 /tests/Chapter02/google_user_data
 /tests/Chapter03/google_user_data
+/tests/Chapter04/google_user_data
+allure-results/
+allure-report/
