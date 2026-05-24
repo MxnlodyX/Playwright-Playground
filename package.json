@@ -18,13 +18,15 @@
   "homepage": "https://github.com/MxnlodyX/Playwright-Practice#readme",
   "devDependencies": {
     "@playwright/test": "^1.59.1",
-    "@types/node": "^25.6.0",
+    "@types/node": "^25.9.1",
     "allure-playwright": "^3.7.1"
   },
   "dependencies": {
+    "csv-parse": "^6.2.1",
     "dotenv": "^17.4.2",
     "playwright-extra": "^4.3.6",
     "playwright-stealth": "^0.0.1",
-    "puppeteer-extra-plugin-stealth": "^2.11.2"
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "xlsx": "^0.18.5"
   }
 }
