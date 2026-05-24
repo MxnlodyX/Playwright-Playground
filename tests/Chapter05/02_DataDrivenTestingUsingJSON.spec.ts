@@ -13,7 +13,6 @@ type TestData = {
         Skill1: string,
         Skill2: string
     }
-
 }
 const typedTestData = testData as TestData
 for (const dataSetName in typedTestData) {
